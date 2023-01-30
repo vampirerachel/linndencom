@@ -1,0 +1,140 @@
+
+
+
+/* lists */
+ul {
+    padding: 0px;
+    margin: 0px 0px 10px 13px;
+}
+
+ul li {
+
+    padding: 0px;
+    margin: 5px 0px;
+}
+
+
+
+li {
+    padding: 0px;
+    margin: 5px 0px;
+}
+.logo{
+    transform: translateY(-61px);
+    display: flex;
+    justify-content: flex-end;
+        margin-right: 20px;
+}
+@media screen and (min-width:760px) {
+    .logo {
+    margin-right: 75px;
+    }
+}
+@media screen and (min-width:1200px) {
+    .logo{
+        margin-right: 200px;
+    }
+}
+@media screen and (min-width:450px) {
+.logo-size{
+    width: 97px;
+        height: 36px;
+}
+}
+
+
+
+.hero{
+    display: flex;
+}
+.hero__image{
+transform: translateY(-44px);
+    margin-top: 0px;
+    display: flex;
+    justify-content: center;
+
+}
+        
+            @media screen and (min-width:450px) {
+                
+                .hero__image-width {
+                    width: 350px;
+                    height: 150px;
+            }
+        }
+@media screen and (min-width:760px){
+                .hero__image-width {
+                        width: 500px;
+                        height: 200px;
+                    }
+}
+
+
+h1{
+display: none;
+}
+.bio {
+    font-family: Encode Sans Condensed ;
+    font-weight: 600;
+    font-size: 15px;
+    margin-top: 31px;
+padding: 19px;
+    line-height: calc(16/9);
+    text-align: center;
+
+}
+        @media screen and (min-width:450px) {
+        .bio{
+            padding: 38px;
+        }
+    }
+.bio__contact{
+    font-family: Encode Sans Condensed;
+        font-weight: 600;
+        font-size: 15px;
+        text-align: center;
+        padding-bottom: 30px;
+}
+.email{
+margin-top: 40px;
+}
+.fullscreen{
+background-color: #dce7d7;
+margin-top: -80px;
+}
+.header{
+        background-color: #dce7d7;
+}
+.header__banner{
+    width: 100%;
+}
+@media screen and (min-width: 450px) {
+    .header__banner{
+height: 100px;
+    }
+}
+footer{
+
+        position: fixed;
+        bottom: 5px;
+
+}
+.copy{
+    font-family: Encode Sans Condensed;
+        font-weight: 600;
+        font-size: 12px;
+        text-align: center;
+}
+.container{
+    margin: auto;
+}
+@media screen and (min-width: 1200px) {
+    body{
+        max-width: 1200px;
+        padding: 20px;
+    }
+    .bio {
+max-width: 418px;
+    margin-left: 353px;
+        }
+}
